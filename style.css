@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Mulish", sans-serif;
+  color: #738291;
+}
+h1 {
+  background-color: rgb(66, 66, 66);
+  color: #fff;
+  padding: 1.75rem 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.intro-content,
+.newsletter-container {
+  background-color: #daf6f5;
+}
+.thick,
+.thin {
+  background-color: #424242;
+  border: 0;
+  display: block;
+  width: 95%;
+  height: 2.5px;
+  margin: 2px 0;
+}
+.thick {
+  height: 4px;
+}
+fieldset {
+  border: none;
+}
+legend {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.contact {
+  margin-top: 2rem;
+}
+.contact input,
+textarea,
+select,
+button {
+  width: 95%;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+:focus {
+  border-color: #297afd;
+}
+input::placeholder {
+  text-align: right;
+  margin-right: 0.5rem;
+  padding-right: 0.5rem;
+  font-style: italic;
+}
+input:focus,
+textarea:focus {
+  background-color: #fff;
+  transition: all 1s;
+}
+p {
+  font-family: "PT Serif", serif;
+}
+select {
+  height: 3rem;
+}
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.contact input {
+  height: 3rem;
+}
+.contact label {
+  display: block;
+  margin: 1rem 0 0.5rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-bottom: 0.75rem;
+}
+.newsletter {
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+.newsletter,
+.newsletter > legend {
+  width: 100%;
+}
+.newsletter > legend {
+  padding: 0.5rem;
+  display: block;
+}
+.newsletter label {
+  margin-left: 0.25rem;
+}
+#plain {
+  margin-bottom: 1.5rem;
+}
+#other {
+  margin-top: 1rem;
+}
+.other-topics {
+}
+.contact input:last-child {
+  margin-bottom: 1.5rem;
+}
+
+button {
+  height: 3rem;
+  background-color: #4ebbb5;
+  color: #fff;
+  margin: 1rem;
+}
+p:last-child {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+  }
+  .intro-content {
+    background-color: #fff;
+  }
+  hr:nth-child(2)::after {
+  }
+  .contact label,
+  input,
+  select {
+    display: inline-block;
+  }
+  .contact label {
+    width: 30%;
+    padding: 1rem;
+  }
+  .contact input,
+  select {
+    width: 60%;
+  }
+
+  .intro-content > div,
+  .contact,
+  .newsletter {
+    width: 50%;
+    margin: auto;
+  }
+  .thick,
+  .thin {
+    width: 100%;
+  }
+  .last-line {
+    width: 50%;
+    margin: 0 auto 2rem;
+  }
+  button {
+    margin: 2rem auto;
+    width: 50%;
+    display: block;
+  }
+  .intro-content > div,
+  .newsletter {
+    background-color: #daf6f5;
+  }
+
+  #zip {
+    width: 20%;
+  }
+  .newsletter-container {
+    background-color: #fff;
+  }
+}
