@@ -112,8 +112,7 @@ input[type="checkbox"] {
 #other {
   margin-top: 1rem;
 }
-.other-topics {
-}
+
 .contact input:last-child {
   margin-bottom: 1.5rem;
 }
@@ -133,8 +132,6 @@ p:last-child {
 @media only screen and (min-width: 768px) {
   .intro-content {
     background-color: #fff;
-  }
-  hr:nth-child(2)::after {
   }
 
   .contact label,
