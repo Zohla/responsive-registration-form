@@ -24,7 +24,7 @@
         <hr class="thin" />
       </div>
     </header>
-    <form action="">
+    <form action="get">
       <fieldset class="contact">
         <legend>Contact information</legend>
         <label for="name">Full Name</label>
@@ -69,15 +69,25 @@
           <p>Select the newsletter you would like to receive</p>
           <div class="checkboxes">
             <div>
-              <input type="checkbox" name="news" value="html-news" />
+              <input
+                type="checkbox"
+                id="html-news"
+                name="news"
+                value="html-news"
+              />
               <label for="html-news">HTML News</label>
             </div>
             <div>
-              <input type="checkbox" name="news" value="css-news" />
+              <input
+                type="checkbox"
+                id="css-news"
+                name="news"
+                value="css-news"
+              />
               <label for="css-news">CSS News</label>
             </div>
             <div>
-              <input type="checkbox" name="news" value="js-news" />
+              <input type="checkbox" id="js-news" name="news" value="js-news" />
               <label for="js-news">Javascript News</label>
             </div>
           </div>
@@ -89,7 +99,7 @@
             </div>
             <div>
               <input type="radio" id="plain" name="radio" />
-              <label for="plain-text">Plain text</label>
+              <label for="plain">Plain text</label>
             </div>
           </div>
 

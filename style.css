@@ -53,9 +53,7 @@ button {
   border-radius: 5px;
   background-color: #f0f0f0;
 }
-:focus {
-  border-color: #297afd;
-}
+
 input::placeholder {
   text-align: right;
   margin-right: 0.5rem;
@@ -138,9 +136,7 @@ p:last-child {
   }
   hr:nth-child(2)::after {
   }
-  .contact {
-    margin-top: 5rem;
-  }
+
   .contact label,
   input,
   select {
@@ -160,6 +156,9 @@ p:last-child {
   .newsletter {
     width: 50%;
     margin: auto;
+  }
+  .contact {
+    margin-top: 2rem;
   }
   .thick,
   .thin {
