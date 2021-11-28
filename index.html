@@ -49,7 +49,6 @@
         <input type="text" id="adress" name="adress" placeholder="Adress" />
         <label for="select-state">State</label>
         <select id="select-state" name="select-state">
-          <!-- !'Fix placeholder disabled choose state' -->
           <option value="choose" class="opac" disabled selected>
             Choose state
           </option>
@@ -104,9 +103,15 @@
           </div>
 
           <label for="other" class="other-topics"
-            >Other topics that you'd like to hear about</label
+            >Other topics that you'd like to hear about?</label
           >
-          <textarea name="other" id="other" cols="30" rows="5"></textarea>
+          <textarea
+            name="other"
+            id="other"
+            cols="30"
+            rows="5"
+            placeholder="Let us know here..."
+          ></textarea>
         </fieldset>
       </div>
       <button type="submit">Sign Up</button>
