@@ -64,7 +64,8 @@ input::placeholder {
   width: 50%;
 }
 input:focus,
-textarea:focus {
+textarea:focus,
+select:focus {
   background-color: #fff;
   transition: all 1s;
 }
